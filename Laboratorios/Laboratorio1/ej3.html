@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fake E-mail sing up</h1>
+    <form action="ej3.html" method="GET">
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="name">Names:</label>
+            <input type="text" name="name" placeholder="Alexander" required>
+            <label for="secondname"></label>
+            <input type="text" name="secondname" placeholder="Ernesto" required> <br><br>
+            
+            <label for="Last Names">Last Names:</label>
+            <input type="text"name="Last name" placeholder="Menendez" required>
+            <label for="Second Last name"></label>
+            <input type="text" name="second Last name" placeholder="Navarrete" required><br><br>
+
+            <label for="Birthday">Birthday</label>
+            <input type="date" name="Birthday" id="Birthday" required><br><br>
+
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender" value="F" required>F
+             <input type="radio" name="Gender" value="M" required>M
+            <input type="radio" name="Other" value="Other" required>Other<input type="text" name="Other:">
+           
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Sing Up Information:</legend>
+            <label for="E-mail:">E-mail:</label>
+            <input type="email" name="E-mail" id="E-mail" placeholder="elprofesor@gamil.com" required><br><br>
+          
+            <label for="Password">Password</label>
+            <input type="password" name="Password" id="Password" placeholder="Password" required pattern=".{5,10}" title="Se requiere de 5 a 10 caracteres"><br><br>
+
+            <label for="Verify password">Verify password</label>
+            <input type="password" name="Verify password" id="Verify password"placeholder="Password" required pattern=".{5,10}" title="Se requiere de 5 a 10 caracteres">
+        </fieldset><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset Fields">
+        
+        
+    </form>
+    
+</body>
+</html>
