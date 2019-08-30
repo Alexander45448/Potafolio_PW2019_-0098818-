@@ -1,0 +1,60 @@
+.btn {
+  border: solid 1px transparent;
+  border-radius: 0.3em;
+  box-shadow: none;
+  padding: 1em;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.btn.small {
+  font-size: 0.7em;
+}
+
+.btn.big {
+  font-size: 1.1em;
+}
+
+.btn.black {
+  background: #1a237e;
+  color: white;
+}
+
+.btn.green {
+  background: #4acf50;
+  color: white;
+}
+
+.btn.sky {
+  background: #00bcd4;
+  color: white;
+}
+
+.btn.purple {
+  background: #673ab7;
+  color: white;
+}
+
+.btn.border {
+  background: transparent;
+  border-color: #1a237e;
+  color: #1a237e;
+}
+
+.btn.border.green {
+  border-color: #4acf50;
+  color: #4acf50;
+}
+
+.btn.border.sky {
+  border-color: #00bcd4;
+  color: #00bcd4;
+}
+
+.btn.border.purple {
+  border-color: #673ab7;
+  color: #673ab7;
+}
